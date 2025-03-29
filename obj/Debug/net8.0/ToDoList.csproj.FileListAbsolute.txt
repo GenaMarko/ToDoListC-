@@ -32,3 +32,4 @@ E:\Practice projects\C#\TestMVC\ToDoList\obj\Debug\net8.0\refint\ToDoList.dll
 E:\Practice projects\C#\TestMVC\ToDoList\obj\Debug\net8.0\ToDoList.pdb
 E:\Practice projects\C#\TestMVC\ToDoList\obj\Debug\net8.0\ToDoList.genruntimeconfig.cache
 E:\Practice projects\C#\TestMVC\ToDoList\obj\Debug\net8.0\ref\ToDoList.dll
+E:\Practice projects\C#\TestMVC\ToDoList\obj\Debug\net8.0\ToDoList.sourcelink.json

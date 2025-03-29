@@ -21,6 +21,11 @@ namespace ToDoList.Models
                 new CategoryModel { categoryId = "shop", categoryName = "Shopping" },
                 new CategoryModel { categoryId = "call", categoryName = "Contact" }
             );
+
+            modelBuilder.Entity<StatusModel>().HasData(
+                new StatusModel { statusId = "open", statusName = "Open"},
+                new StatusModel { statusId = "closed", statusName = "Completed"}
+            );
         }
     }
 }

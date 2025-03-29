@@ -3,12 +3,28 @@
   "WorkspaceRootPath": "E:\\Practice projects\\C#\\TestMVC\\ToDoList\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Practice projects\\C#\\TestMVC\\ToDoList\\Migrations\\20250329131543_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20250329131543_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{58F13FB7-609E-4B0A-9B3E-23E2E531EE0C}|ToDoList.csproj|e:\\practice projects\\c#\\testmvc\\todolist\\models\\filtermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58F13FB7-609E-4B0A-9B3E-23E2E531EE0C}|ToDoList.csproj|solutionrelative:models\\filtermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Practice projects\\C#\\TestMVC\\ToDoList\\Migrations\\20250329185231_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20250329185231_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58F13FB7-609E-4B0A-9B3E-23E2E531EE0C}|ToDoList.csproj|e:\\practice projects\\c#\\testmvc\\todolist\\models\\todocontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58F13FB7-609E-4B0A-9B3E-23E2E531EE0C}|ToDoList.csproj|solutionrelative:models\\todocontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{58F13FB7-609E-4B0A-9B3E-23E2E531EE0C}|ToDoList.csproj|e:\\practice projects\\c#\\testmvc\\todolist\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{58F13FB7-609E-4B0A-9B3E-23E2E531EE0C}|ToDoList.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58F13FB7-609E-4B0A-9B3E-23E2E531EE0C}|ToDoList.csproj|e:\\practice projects\\c#\\testmvc\\todolist\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58F13FB7-609E-4B0A-9B3E-23E2E531EE0C}|ToDoList.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58F13FB7-609E-4B0A-9B3E-23E2E531EE0C}|ToDoList.csproj|e:\\practice projects\\c#\\testmvc\\todolist\\models\\categorymodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58F13FB7-609E-4B0A-9B3E-23E2E531EE0C}|ToDoList.csproj|solutionrelative:models\\categorymodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{58F13FB7-609E-4B0A-9B3E-23E2E531EE0C}|ToDoList.csproj|e:\\practice projects\\c#\\testmvc\\todolist\\models\\statusmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -17,18 +33,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{58F13FB7-609E-4B0A-9B3E-23E2E531EE0C}|ToDoList.csproj|e:\\practice projects\\c#\\testmvc\\todolist\\models\\todomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{58F13FB7-609E-4B0A-9B3E-23E2E531EE0C}|ToDoList.csproj|solutionrelative:models\\todomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{58F13FB7-609E-4B0A-9B3E-23E2E531EE0C}|ToDoList.csproj|e:\\practice projects\\c#\\testmvc\\todolist\\models\\categorymodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{58F13FB7-609E-4B0A-9B3E-23E2E531EE0C}|ToDoList.csproj|solutionrelative:models\\categorymodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{58F13FB7-609E-4B0A-9B3E-23E2E531EE0C}|ToDoList.csproj|e:\\practice projects\\c#\\testmvc\\todolist\\models\\todocontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{58F13FB7-609E-4B0A-9B3E-23E2E531EE0C}|ToDoList.csproj|solutionrelative:models\\todocontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{58F13FB7-609E-4B0A-9B3E-23E2E531EE0C}|ToDoList.csproj|e:\\practice projects\\c#\\testmvc\\todolist\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{58F13FB7-609E-4B0A-9B3E-23E2E531EE0C}|ToDoList.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -43,19 +47,32 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "20250329131543_initial.cs",
-              "DocumentMoniker": "E:\\Practice projects\\C#\\TestMVC\\ToDoList\\Migrations\\20250329131543_initial.cs",
-              "RelativeDocumentMoniker": "Migrations\\20250329131543_initial.cs",
-              "ToolTip": "E:\\Practice projects\\C#\\TestMVC\\ToDoList\\Migrations\\20250329131543_initial.cs",
-              "RelativeToolTip": "Migrations\\20250329131543_initial.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "FilterModel.cs",
+              "DocumentMoniker": "E:\\Practice projects\\C#\\TestMVC\\ToDoList\\Models\\FilterModel.cs",
+              "RelativeDocumentMoniker": "Models\\FilterModel.cs",
+              "ToolTip": "E:\\Practice projects\\C#\\TestMVC\\ToDoList\\Models\\FilterModel.cs",
+              "RelativeToolTip": "Models\\FilterModel.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAgwCAAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-29T13:15:44.154Z",
+              "WhenOpened": "2025-03-29T18:56:16.521Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
+              "Title": "20250329185231_initial.cs",
+              "DocumentMoniker": "E:\\Practice projects\\C#\\TestMVC\\ToDoList\\Migrations\\20250329185231_initial.cs",
+              "RelativeDocumentMoniker": "Migrations\\20250329185231_initial.cs",
+              "ToolTip": "E:\\Practice projects\\C#\\TestMVC\\ToDoList\\Migrations\\20250329185231_initial.cs",
+              "RelativeToolTip": "Migrations\\20250329185231_initial.cs",
+              "ViewState": "AgIAAFUAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-29T18:52:31.379Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "ToDoModel.cs",
               "DocumentMoniker": "E:\\Practice projects\\C#\\TestMVC\\ToDoList\\Models\\ToDoModel.cs",
               "RelativeDocumentMoniker": "Models\\ToDoModel.cs",
@@ -68,7 +85,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "StatusModel.cs",
               "DocumentMoniker": "E:\\Practice projects\\C#\\TestMVC\\ToDoList\\Models\\StatusModel.cs",
               "RelativeDocumentMoniker": "Models\\StatusModel.cs",
@@ -76,12 +93,11 @@
               "RelativeToolTip": "Models\\StatusModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-29T13:07:31.36Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-29T13:07:31.36Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "CategoryModel.cs",
               "DocumentMoniker": "E:\\Practice projects\\C#\\TestMVC\\ToDoList\\Models\\CategoryModel.cs",
               "RelativeDocumentMoniker": "Models\\CategoryModel.cs",
@@ -89,12 +105,11 @@
               "RelativeToolTip": "Models\\CategoryModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-29T13:05:59.058Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-29T13:05:59.058Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "E:\\Practice projects\\C#\\TestMVC\\ToDoList\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -102,12 +117,11 @@
               "RelativeToolTip": "Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-29T13:00:28.937Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-29T13:00:28.937Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "appsettings.json",
               "DocumentMoniker": "E:\\Practice projects\\C#\\TestMVC\\ToDoList\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
@@ -115,12 +129,11 @@
               "RelativeToolTip": "appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-03-29T12:56:12.723Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-29T12:56:12.723Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
               "Title": "ToDoContext.cs",
               "DocumentMoniker": "E:\\Practice projects\\C#\\TestMVC\\ToDoList\\Models\\ToDoContext.cs",
               "RelativeDocumentMoniker": "Models\\ToDoContext.cs",
@@ -128,8 +141,7 @@
               "RelativeToolTip": "Models\\ToDoContext.cs",
               "ViewState": "AgIAAAUAAAAAAAAAAAAQwA4AAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-29T09:42:51.996Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-29T09:42:51.996Z"
             }
           ]
         }

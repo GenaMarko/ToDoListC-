@@ -1,32 +1,46 @@
 using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using ToDoList.Models;
 
 namespace ToDoList.Controllers
 {
     public class HomeController : Controller
     {
-        private readonly ILogger<HomeController> _logger;
-
-        public HomeController(ILogger<HomeController> logger)
+        private ToDoContext context;
+        public HomeController(ToDoContext ctx) => context = ctx; 
+        public IActionResult Index(string id)
         {
-            _logger = logger;
-        }
+            var filters = new FilterModel(id);   
 
-        public IActionResult Index()
-        {
+            ViewBag.Filters = filters;
+            ViewBag.Categories = context.category.ToList();
+            ViewBag.Statuses = context.status.ToList();
+            ViewBag.DueFilters = FilterModel.dueFilterValues;
+
+            IQueryable<ToDoModel> query = context.toDos
+                .Include(t => t.category)
+                .Include(t => t.status);
+
+            if (filters.hasCategory) 
+            {
+                query = query.Where(t => t.categoryId == filters.categoryId);
+            }
+            if (filters.hasStatus)
+            {
+                query = query.Where(t => t.statusId == filters.statusId);
+            }
+            if (filters.hasDue) 
+            {
+                var today = DateTime.Today;
+
+                if (filters.isPast)
+                {
+                    query = query.Where(t => t.dueDate < today);
+                }
+            }
+
             return View();
-        }
-
-        public IActionResult Privacy()
-        {
-            return View();
-        }
-
-        [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
-        public IActionResult Error()
-        {
-            return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
         }
     }
 }

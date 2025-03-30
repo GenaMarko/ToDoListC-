@@ -1,6 +1,7 @@
 using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Identity.Client;
 using ToDoList.Models;
 
 namespace ToDoList.Controllers
@@ -38,9 +39,86 @@ namespace ToDoList.Controllers
                 {
                     query = query.Where(t => t.dueDate < today);
                 }
+                else if (filters.isFuture)
+                {
+                    query = query.Where(t => t.dueDate > today);
+                }
+                if (filters.isToday)
+                {
+                    query = query.Where(t => t.dueDate == today);
+                }
             }
 
-            return View();
+            var tasks = query.OrderBy(t => t.dueDate).ToList();
+
+            return View(tasks);
+        }
+
+        [HttpGet]
+        public IActionResult Add() 
+        {
+            ViewBag.Categories = context.category.ToList();
+            ViewBag.Statuses = context.status.ToList();
+
+            var task = new ToDoModel { statusId = "open" };
+
+            return View(task);
+        }
+
+        [HttpPost]
+        public IActionResult Add(ToDoModel task) 
+        {
+            if (ModelState.IsValid)
+            {
+                context.toDos.Add(task);
+                context.SaveChanges();
+
+                return RedirectToAction("Index");
+            }
+            else 
+            {
+                ViewBag.Categories = context.category.ToList();
+                ViewBag.Statuses = context.status.ToList();
+
+                return View(task);
+            }
+        }
+
+        [HttpPost]
+        public IActionResult Filter(string[] filter)
+        {
+            string id = string.Join("-", filter);
+
+            return RedirectToAction("Index",new {ID = id});
+        }
+
+        [HttpPost]
+        public IActionResult MarkComplete([FromRoute] string id, ToDoModel selected) 
+        { 
+            selected = context.toDos.Find(selected.id);
+
+            if (selected != null)
+            {
+                selected.statusId = "closed";
+                context.SaveChanges();
+            }
+
+            return RedirectToAction("Index", new {ID = id});
+        }
+
+        [HttpPost]
+        public IActionResult DeleteComplete(string id) 
+        {
+            var toDelete = context.toDos.Where(t => t.statusId == "closed").ToList();
+
+            foreach (var task in toDelete)
+            {
+                context.toDos.Remove(task);
+            }
+
+            context.SaveChanges();
+
+            return RedirectToAction("Index", new {ID = id});
         }
     }
 }

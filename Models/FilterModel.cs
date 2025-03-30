@@ -5,7 +5,9 @@
         public FilterModel(string filterString) 
         {
             filterString = filterString ?? "all-all-all";
+
             string[] filters = filterString.Split('-');
+
             categoryId = filters[0];
             due = filters[1];
             statusId = filters[2];

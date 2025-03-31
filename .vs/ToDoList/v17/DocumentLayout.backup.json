@@ -3,12 +3,24 @@
   "WorkspaceRootPath": "E:\\Practice projects\\C#\\TestMVC\\ToDoList\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{58F13FB7-609E-4B0A-9B3E-23E2E531EE0C}|ToDoList.csproj|e:\\practice projects\\c#\\testmvc\\todolist\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{58F13FB7-609E-4B0A-9B3E-23E2E531EE0C}|ToDoList.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{58F13FB7-609E-4B0A-9B3E-23E2E531EE0C}|ToDoList.csproj|e:\\practice projects\\c#\\testmvc\\todolist\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{58F13FB7-609E-4B0A-9B3E-23E2E531EE0C}|ToDoList.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58F13FB7-609E-4B0A-9B3E-23E2E531EE0C}|ToDoList.csproj|e:\\practice projects\\c#\\testmvc\\todolist\\models\\todomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58F13FB7-609E-4B0A-9B3E-23E2E531EE0C}|ToDoList.csproj|solutionrelative:models\\todomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{58F13FB7-609E-4B0A-9B3E-23E2E531EE0C}|ToDoList.csproj|e:\\practice projects\\c#\\testmvc\\todolist\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{58F13FB7-609E-4B0A-9B3E-23E2E531EE0C}|ToDoList.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58F13FB7-609E-4B0A-9B3E-23E2E531EE0C}|ToDoList.csproj|e:\\practice projects\\c#\\testmvc\\todolist\\views\\home\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{58F13FB7-609E-4B0A-9B3E-23E2E531EE0C}|ToDoList.csproj|solutionrelative:views\\home\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58F13FB7-609E-4B0A-9B3E-23E2E531EE0C}|ToDoList.csproj|e:\\practice projects\\c#\\testmvc\\todolist\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{58F13FB7-609E-4B0A-9B3E-23E2E531EE0C}|ToDoList.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{58F13FB7-609E-4B0A-9B3E-23E2E531EE0C}|ToDoList.csproj|e:\\practice projects\\c#\\testmvc\\todolist\\models\\filtermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -22,11 +34,50 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "E:\\Practice projects\\C#\\TestMVC\\ToDoList\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "E:\\Practice projects\\C#\\TestMVC\\ToDoList\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-31T14:56:20.722Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ToDoModel.cs",
+              "DocumentMoniker": "E:\\Practice projects\\C#\\TestMVC\\ToDoList\\Models\\ToDoModel.cs",
+              "RelativeDocumentMoniker": "Models\\ToDoModel.cs",
+              "ToolTip": "E:\\Practice projects\\C#\\TestMVC\\ToDoList\\Models\\ToDoModel.cs",
+              "RelativeToolTip": "Models\\ToDoModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-31T14:54:47.263Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Add.cshtml",
+              "DocumentMoniker": "E:\\Practice projects\\C#\\TestMVC\\ToDoList\\Views\\Home\\Add.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Add.cshtml",
+              "ToolTip": "E:\\Practice projects\\C#\\TestMVC\\ToDoList\\Views\\Home\\Add.cshtml",
+              "RelativeToolTip": "Views\\Home\\Add.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-31T14:33:58.203Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "FilterModel.cs",
               "DocumentMoniker": "E:\\Practice projects\\C#\\TestMVC\\ToDoList\\Models\\FilterModel.cs",
               "RelativeDocumentMoniker": "Models\\FilterModel.cs",
@@ -34,25 +85,24 @@
               "RelativeToolTip": "Models\\FilterModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-31T14:05:30.628Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-31T14:05:30.628Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "HomeController.cs",
               "DocumentMoniker": "E:\\Practice projects\\C#\\TestMVC\\ToDoList\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
               "ToolTip": "E:\\Practice projects\\C#\\TestMVC\\ToDoList\\Controllers\\HomeController.cs",
               "RelativeToolTip": "Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAEAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-31T14:05:19.626Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "Index.cshtml",
               "DocumentMoniker": "E:\\Practice projects\\C#\\TestMVC\\ToDoList\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",

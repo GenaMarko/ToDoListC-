@@ -9,8 +9,23 @@
                      asp-items="@(new SelectList(ViewBag.Categories,"categoryId","categoryName",ViewBag.Filters.categoryId))">
                         <option value="all">All</option>
                     </select>
-                    
                 </div>
+                <div class="mb-3">
+                    <label class="form-label">Due:</label>
+                    <select name="filter" class="form-select" 
+                    asp-items="@(new SelectList(ViewBag.DueFilters, "Key", "Value", ViewBag.Filters.due))">
+                        <option value="all">All</option>
+                    </select>
+                </div>
+                <div class="mb-3">
+                    <label class="form-label">Status:</label>
+                    <select name="filter" class="form-select" 
+                    asp-items="@(new SelectList(ViewBag.Statuses, "statusId", "statusName", ViewBag.Filters.statusId))">
+                        <option value="all">All</option>
+                    </select>
+                </div>
+                <button type="submit" class="btn btn-primary">Filter</button>
+                <a asp-action="Index" asp-route-id="" class="btn btn-primary">Clear</a>
             </form>
         </div>
         <div class="col-md-10">

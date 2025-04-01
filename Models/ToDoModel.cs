@@ -5,7 +5,7 @@ namespace ToDoList.Models
 {
     public class ToDoModel
     {
-        public string id { get; set; }
+        [Key] public int id { get; set; }
 
         [Required(ErrorMessage = "Please enter a description.")]
         public string description { get; set; } = string.Empty;

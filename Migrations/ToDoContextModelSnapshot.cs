@@ -91,8 +91,11 @@ namespace ToDoList.Migrations
 
             modelBuilder.Entity("ToDoList.Models.ToDoModel", b =>
                 {
-                    b.Property<string>("id")
-                        .HasColumnType("nvarchar(450)");
+                    b.Property<int>("id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("id"));
 
                     b.Property<string>("categoryId")
                         .IsRequired()

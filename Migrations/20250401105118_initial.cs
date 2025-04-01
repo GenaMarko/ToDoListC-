@@ -41,7 +41,8 @@ namespace ToDoList.Migrations
                 name: "toDos",
                 columns: table => new
                 {
-                    id = table.Column<string>(type: "nvarchar(450)", nullable: false),
+                    id = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
                     description = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     dueDate = table.Column<DateTime>(type: "datetime2", nullable: false),
                     categoryId = table.Column<string>(type: "nvarchar(450)", nullable: false),

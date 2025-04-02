@@ -7,12 +7,12 @@
       "RelativeMoniker": "D:0:0:{58F13FB7-609E-4B0A-9B3E-23E2E531EE0C}|ToDoList.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{58F13FB7-609E-4B0A-9B3E-23E2E531EE0C}|ToDoList.csproj|e:\\practice projects\\c#\\testmvc\\todolist\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{58F13FB7-609E-4B0A-9B3E-23E2E531EE0C}|ToDoList.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{58F13FB7-609E-4B0A-9B3E-23E2E531EE0C}|ToDoList.csproj|e:\\practice projects\\c#\\testmvc\\todolist\\views\\home\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{58F13FB7-609E-4B0A-9B3E-23E2E531EE0C}|ToDoList.csproj|solutionrelative:views\\home\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58F13FB7-609E-4B0A-9B3E-23E2E531EE0C}|ToDoList.csproj|e:\\practice projects\\c#\\testmvc\\todolist\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{58F13FB7-609E-4B0A-9B3E-23E2E531EE0C}|ToDoList.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,26 +26,26 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Add.cshtml",
               "DocumentMoniker": "E:\\Practice projects\\C#\\TestMVC\\ToDoList\\Views\\Home\\Add.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\Add.cshtml",
               "ToolTip": "E:\\Practice projects\\C#\\TestMVC\\ToDoList\\Views\\Home\\Add.cshtml",
               "RelativeToolTip": "Views\\Home\\Add.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAgAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-04-02T12:25:07.79Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "E:\\Practice projects\\C#\\TestMVC\\ToDoList\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
               "ToolTip": "E:\\Practice projects\\C#\\TestMVC\\ToDoList\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAArAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-04-02T12:12:08.356Z",
               "EditorCaption": ""
@@ -58,7 +58,7 @@
               "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
               "ToolTip": "E:\\Practice projects\\C#\\TestMVC\\ToDoList\\Views\\Home\\Index.cshtml",
               "RelativeToolTip": "Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAABUAAAAAAAAAAAAAAEAAAAAVAAAAAAAAAA==",
+              "ViewState": "AgIAADAAAAAAAAAAAAAAAC4AAABSAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-03-30T11:50:11.616Z",
               "EditorCaption": ""

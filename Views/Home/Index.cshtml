@@ -1,0 +1,78 @@
+﻿@model IEnumerable<ToDoModel>
+
+<div class="row">
+    <div class="col-md-2">
+        <form asp-action="Filter" method="post">
+            <h2 class="text-center">Filter:</h2>
+            <div class="mb-3">
+                <label class="form-label">Category</label>
+                <select name="filter" class="form-select" 
+                asp-items="@(new SelectList(ViewBag.Categories,"categoryId","categoryName",ViewBag.Filters.categoryId))">
+                    <option value="all">All</option>
+                </select>
+            </div>
+            <div class="mb-3">
+                <label class="form-label">Due:</label>
+                <select name="filter" class="form-select" 
+                asp-items="@(new SelectList(ViewBag.DueFilters, "Key", "Value", ViewBag.Filters.due))">
+                    <option value="all">All</option>
+                </select>
+            </div>
+            <div class="mb-3">
+                <label class="form-label">Status:</label>
+                <select name="filter" class="form-select" 
+                asp-items="@(new SelectList(ViewBag.Statuses, "statusId", "statusName", ViewBag.Filters.statusId))">
+                    <option value="all">All</option>
+                </select>
+            </div>
+            <button type="submit" class="btn btn-outline-dark">Apply</button>
+            <a asp-action="Index" asp-route-id="" class="btn btn-outline-dark">Clear</a>
+        </form>
+    </div>
+    <div class="col-md-10">
+        <div class="d-grid gap-3">
+            <div id="buttons">
+                <form asp-action="DeleteComplete" method="post" asp-route-id="@ViewBag.Filters.filterString">
+                    <a asp-action="Add" class="btn btn-outline-dark">Add new task</a>
+                    <button type="submit" class="btn btn-outline-dark">Delete completed tasks</button>
+                </form>
+            </div>
+            <div id="table">
+                <form asp-action="MarkComplete" method="post" asp-route-id="@ViewBag.Filters.filterString">
+                    <table class="table">
+                        <thead class="bg-dark text-white border-3 border-dark">
+                            <tr>
+                                <th class="text-center" scope="col">Description:</th>
+                                <th class="text-center" scope="col">Category:</th>
+                                <th class="text-center" scope="col">Due date:</th>
+                                <th class="text-center" scope="col">Status:</th>
+                                <th class="w-25"></th>
+                            </tr>
+                        </thead>
+                        <tbody class="border-3 border-dark">
+                            @foreach (ToDoModel task in Model)
+                            {
+                                string overdue = task.overDue ? "bg-warning" : "";
+                                <tr>
+                                    <td class="text-center">@task.description</td>
+                                    <td class="text-center">@task.category.categoryName</td>
+                                    <td class="@overdue text-center">@task.dueDate?.ToShortDateString()</td>
+                                    <td class="@overdue text-center">@task.status.statusName</td>
+                                    <td class="text-center">
+                                        @if (task.statusId == "open")
+                                        {
+                                            <button type="submit" class="btn btn-outline-dark btn-sm"
+                                                    name="@nameof(ToDoModel.id)" value="@task.id">
+                                                Mark completed
+                                            </button>
+                                        }
+                                    </td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

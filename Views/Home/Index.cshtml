@@ -1,4 +1,6 @@
-﻿@model IEnumerable<ToDoModel>
+﻿@* @model IEnumerable<ToDoModel> *@
+@model X.PagedList.IPagedList<ToDoList.Models.ToDoModel>
+@using X.PagedList.Mvc.Core;
 
 <div class="row">
     <div class="col-md-2">
@@ -71,6 +73,10 @@
                             }
                         </tbody>
                     </table>
+                    Page @(Model.PageCount < Model.PageNumber ? 0 : Model.PageNumber) of @Model.PageCount
+
+                    @* @Html.ActionLink("Last Name", "Index", new { sortOrder = ViewBag.NameSortParm, currentFilter = ViewBag.CurrentFilter }) *@
+                    @Html.PagedListPager(Model, page => Url.Action("Index", new { page }))
                 </form>
             </div>
         </div>

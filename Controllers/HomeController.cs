@@ -1,8 +1,11 @@
 using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Data.SqlClient;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Identity.Client;
 using ToDoList.Models;
+using X.PagedList;
+using X.PagedList.Extensions;
 
 namespace ToDoList.Controllers
 {
@@ -10,7 +13,7 @@ namespace ToDoList.Controllers
     {
         private ToDoContext context;
         public HomeController(ToDoContext ctx) => context = ctx; 
-        public IActionResult Index(string id)
+        public IActionResult Index(string id, int? page)
         {
             var filters = new FilterModel(id);   
 
@@ -51,7 +54,10 @@ namespace ToDoList.Controllers
 
             var tasks = query.OrderBy(t => t.dueDate).ToList();
 
-            return View(tasks);
+            int pageSize = 5;
+            int pageNumber = (page ?? 1);
+
+            return View(tasks.ToPagedList(pageNumber, pageSize));
         }
 
         [HttpGet]

@@ -72,10 +72,10 @@
                             }
                         </tbody>
                     </table>
-                    <div class="row">
+                    <div class="row col-md-4 mx-auto">
                         @Html.PagedListPager(Model, page => Url.Action("Index", new { page }), new PagedListRenderOptions(){
                             LiElementClasses = new string[] { "page-item btn-sm" },
-                            PageClasses = new string[] { "page-link bg-dark text-white " }
+                            PageClasses = new string[] { "page-link bg-dark text-white" }
                         })
                     </div>
                 </form>
